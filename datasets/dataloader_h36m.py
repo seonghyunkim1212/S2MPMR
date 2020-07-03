@@ -27,7 +27,8 @@ opt = Opts().parse()
 # 12: Neck
 # 13: Head-Top
 
-img_dir = '/home/seonghyun/human_pose_estimation/datasets/H36M/images_original'
+# Set the image directory
+img_dir = '../datasets/H36M'
 
 class H36M14(data.Dataset):
     def __init__(self, split):

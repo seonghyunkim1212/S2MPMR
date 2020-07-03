@@ -12,8 +12,9 @@ from utils.utils import transform3d
 
 inds = [10,9,8,11,12,13,4,3,2,5,6,7,16,0]
 
-img_dir = '/home/seonghyun/human_pose_estimation/datasets/MuCo/data'
-train_annot_path = '/home/seonghyun/human_pose_estimation/datasets/MuCo/data/MuCo-3DHP.json'
+# Set the directory
+img_dir = '../datasets/MuCo/data'
+train_annot_path = '../datasets/MuCo/data/MuCo-3DHP.json'
 
 class MuCo(Dataset):
     def __init__(self, data_split):

@@ -23,7 +23,9 @@ from utils.img import transform, crop
 # 12: Neck
 # 13: Head-Top
 
-img_dir = '/home/seonghyun/human_pose_estimation/datasets/MPII_Pose/images'
+
+# Set the image directory
+img_dir = '../datasets/MPII_Pose/images'
 
 num_joint_mpii = 16
 num_joint_lsp = 14

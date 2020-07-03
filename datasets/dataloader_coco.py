@@ -10,7 +10,9 @@ from utils.img import transform, crop
 
 inds = [16, 14, 12, 11, 13, 15, 10, 8, 6, 5, 7, 9, -1, -1, 0, 1, 2, 3, 4]
 
-img_dir = '/home/seonghyun/human_pose_estimation/datasets/coco'
+
+# Set the image directory
+img_dir = '../datasets/coco'
 
 class COCODataset(Dataset):
     '''
