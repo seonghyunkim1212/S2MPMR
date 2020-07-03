@@ -30,6 +30,7 @@ opt = Opts().parse()
 # Set the image directory
 img_dir = '../datasets/H36M'
 
+
 class H36M14(data.Dataset):
     def __init__(self, split):
         print('==> Initializing H36M %s data' % (split))

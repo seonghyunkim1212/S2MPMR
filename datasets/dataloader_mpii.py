@@ -27,6 +27,7 @@ from utils.img import transform, crop
 # Set the image directory
 img_dir = '../datasets/MPII_Pose/images'
 
+
 num_joint_mpii = 16
 num_joint_lsp = 14
 
