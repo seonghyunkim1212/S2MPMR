@@ -7,7 +7,8 @@ You can download each dataset from the link below.
 * MuCo-3DHP [[data]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)
 * MuPoTS-3D [[images]](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/)[[annotations]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)
 * MS-COCO [[data]](https://cocodataset.org/#home)
-* Human3.6M [[images]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)[[annotations]]()
+* Human3.6M [[images]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)[[annotations]](https://drive.google.com/drive/folders/189iL4dzAhaBq6TSa5NWv7Au_2heh_dsq?usp=sharing)
+* MPII [[images]](http://human-pose.mpi-inf.mpg.de/)[[annotations]](https://drive.google.com/file/d/1LiCTqfe0A0kdvNpd8YUVQrreqevfL14d/view?usp=sharing)
 * Mosh [[data]](https://drive.google.com/file/d/1c0R20yQv-HXhKW7mVmguC8Nfz9IPak-_/view?usp=sharing)
 
 # Training
