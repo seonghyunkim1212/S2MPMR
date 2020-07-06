@@ -22,7 +22,7 @@ For MuCO-3DHP dataset,
 
 # after trainig, enter the following command
 cd matlab
-mpii_mupots_eval(1,0)
+mpii_mupots_multiperson_eval(1,0)
 </code>
 </pre>
 
@@ -33,7 +33,7 @@ mpii_mupots_eval(1,0)
 
 # enter the following command
 cd matlab
-mpii_mupots_eval(1,1)
+mpii_mupots_multiperson_eval(1,1)
 </code>
 </pre>
 
