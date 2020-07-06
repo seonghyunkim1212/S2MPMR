@@ -37,4 +37,11 @@ mpii_mupots_eval(1,1)
 </code>
 </pre>
 
+For Human3.6M dataset,
+<pre>
+<code>
+./run_h36m.sh
+</code>
+</pre>
+
 
