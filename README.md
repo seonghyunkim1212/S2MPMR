@@ -4,23 +4,20 @@
 
 # Dataset
 You can download each dataset from the link below. 
-* MuCo-3DHP [[data]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)
 * MuPoTS-3D [[images]](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/)[[annotations]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)
-* MS-COCO [[data]](https://cocodataset.org/#home)
 * Human3.6M [[images]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)[[annotations]](https://drive.google.com/drive/folders/189iL4dzAhaBq6TSa5NWv7Au_2heh_dsq?usp=sharing)
-* MPII [[images]](http://human-pose.mpi-inf.mpg.de/)[[annotations]](https://drive.google.com/file/d/1LiCTqfe0A0kdvNpd8YUVQrreqevfL14d/view?usp=sharing)
-* Mosh [[data]](https://drive.google.com/file/d/1c0R20yQv-HXhKW7mVmguC8Nfz9IPak-_/view?usp=sharing)
 
-# Training
+# Reproducing out results
 You can reproduce our results with the following command.
 
 For MuCO-3DHP dataset,
 <pre>
 <code>
 # PCK absolute
-./run_muco_cam.sh
+# you should change => coord='cam'
+python3 test_mupots.py 
 
-# after trainig, enter the following command
+# enter the following command
 cd matlab
 mpii_mupots_multiperson_eval(1,0)
 </code>
@@ -29,7 +26,8 @@ mpii_mupots_multiperson_eval(1,0)
 <pre>
 <code>
 # PCK relative and AUC relative
-./run_muco_relative.sh
+# you should change => coord='relative'
+python3 test_mupots.py
 
 # enter the following command
 cd matlab
@@ -40,7 +38,8 @@ mpii_mupots_multiperson_eval(1,1)
 For Human3.6M dataset,
 <pre>
 <code>
-./run_h36m.sh
+# protocol= 'p1' or 'p2'
+python3 test_h36m.py
 </code>
 </pre>
 
