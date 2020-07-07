@@ -8,7 +8,8 @@ You can download each dataset from the link below.
 * Human3.6M [[images]](https://github.com/mks0601/3DMPPE_POSENET_RELEASE)[[annotations]](https://drive.google.com/drive/folders/189iL4dzAhaBq6TSa5NWv7Au_2heh_dsq?usp=sharing)
 
 # Reproducing out results
-You can reproduce our results with the following command.
+You can download our pretrained models from [[link]](https://drive.google.com/drive/folders/1OaLE-1UMMsyXjDdt6VNpWmVz7QnlQhuq?usp=sharing)
+Then, you can reproduce our results with the following command.
 
 For MuCO-3DHP dataset,
 <pre>
